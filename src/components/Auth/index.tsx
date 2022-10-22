@@ -110,12 +110,14 @@ const Auth = () => {
       <Stack className="auth__header">
         <Center>
           <IconBrandGooglePhotos
+            className="auth__header-logo"
             size={60}
             color={theme.colors.blue[5]}
           />
         </Center>
         <Stack sx={{ textAlign: 'center' }}>
           <Title
+            className="auth__header-title"
             weight={500}
             order={1}
           >
@@ -123,7 +125,7 @@ const Auth = () => {
           </Title>
           <Group
             position="center"
-            className="auth__header--message"
+            className="auth__header-message"
           >
             <p>
               Don&apos;t have an account?
@@ -131,6 +133,7 @@ const Auth = () => {
               <Anchor
                 weight={500}
                 href="#"
+                className="auth__sign-up-link"
               >
                 Sign up
               </Anchor>

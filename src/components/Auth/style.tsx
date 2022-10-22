@@ -12,7 +12,7 @@ export const AuthWrapper = styled(Container)`
   }
 
   .auth{
-    &__header--message p{
+    &__header-message p{
       color: ${({ theme }) => (theme.colorScheme === 'dark' ? 'white' : theme.colors.gray[6])};
       margin: 0;
     }
