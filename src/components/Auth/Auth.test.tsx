@@ -37,6 +37,6 @@ describe('Accordion test', () => {
   });
 
   test('Should display something', () => {
-    screen.getByText(/Or continue with/i);
+    expect(screen.getByText(/Or continue with/i));
   });
 });

@@ -19,6 +19,9 @@
     "react",
     "@typescript-eslint"
   ],
+  "globals": {
+    "JSX": "readonly"
+  },
   "rules": {
     "react/jsx-filename-extension": [
       0
@@ -76,7 +79,8 @@
         "tsx": "never",
         "json": "never"
       }
-    ]
+    ],
+    "react/require-default-props": 0
   },
   "settings": {
     "import/resolver": {
